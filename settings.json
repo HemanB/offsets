@@ -1,0 +1,21 @@
+{
+  "test_dir": "tests",
+  "mode": "exe",
+  "test_suite_names": ["offsets"],
+  "non_zero_exit_status_penalty": 0.75,
+  "memory_penalty": 0.5,
+  "test_suites": {
+    "offsets": [
+        { "desc": "0",  "args": ["0", "100", "1"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 },
+        { "desc": "1",  "args": ["0", "100", "2"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 },
+        { "desc": "2",  "args": ["1", "100", "1"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 },
+        { "desc": "3",  "args": ["1", "100", "2"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 },
+        { "desc": "4",  "args": ["2", "100", "1"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 },
+        { "desc": "5",  "args": ["2", "100", "2"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 },
+        { "desc": "6",  "args": ["2", "100", "3"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 },
+        { "desc": "7",  "args": ["3", "100", "1"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 },
+        { "desc": "8",  "args": ["3", "100", "2"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 },
+        { "desc": "9",  "args": ["3", "100", "3"],  "diff": "normal", "outfile": "", "infile": "", "valgrind": false, "points": 10.0 }
+    ]
+  }
+}
